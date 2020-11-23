@@ -1,0 +1,35 @@
+.Partners-section h3 {
+  text-align: center;
+  color: crimson;
+  font-size: 4rem;
+}
+.Partners-logos {
+  width: 80%;
+  border-top: gray solid;
+  border-bottom: solid gray;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.Partners-logos img {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 5px;
+  border: gray solid 2px;
+  border-radius: 60px;
+  filter: opacity(0.8);
+  transition: all 1s;
+}
+.Partners-logos img:hover {
+  height: 150px;
+  width: 150px;
+  border-radius: 0;
+  filter: opacity(1);
+}
+@media only screen and (max-width: 600px) {
+  .Partners-logos {
+    width: 100%;
+  }
+}

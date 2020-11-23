@@ -1,0 +1,25 @@
+h2 {
+  color: crimson;
+  font-size: 4rem;
+}
+.info {
+  width: 80%;
+  margin: 0 auto;
+  border-top: gray solid;
+  border-bottom: gray solid;
+  text-align: justify;
+}
+.info img {
+  margin-top: 50px;
+  margin-left: 30%;
+  width: 50%;
+}
+.impact {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(31, 30, 30, 0.747);
+  padding: 60px;
+}
+.impact img {
+  width: 45%;
+}

@@ -1,0 +1,72 @@
+.vision-mission {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.vision-mission h2 {
+  font-size: 3rem;
+}
+.apropos {
+  text-align: justify;
+  color: crimson;
+  padding: 30px;
+  margin: 50px;
+  background-color: rgba(128, 128, 128, 0.541);
+  width: 90%;
+}
+
+.mission,
+.vision {
+  padding: 30px;
+  margin: 50px;
+  background-color: rgba(128, 128, 128, 0.541);
+  display: flex;
+  justify-content: space-around;
+}
+.mission h3,
+.vision h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: crimson;
+}
+.mission p,
+.vision p {
+  min-width: 200px;
+  line-height: 1.5;
+  text-align: justify;
+  color: rgb(36, 36, 36);
+}
+.Video {
+  margin: 30px;
+}
+.Video p {
+  color: crimson;
+  font-size: 15px;
+}
+@media only screen and (max-width: 1100px) {
+  .vision-mission {
+    width: 60%;
+    padding: 0;
+    align-items: center;
+  }
+  .apropos,
+  .mission,
+  .vision {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .apropos,
+  .mission p,
+  .vision p {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+}

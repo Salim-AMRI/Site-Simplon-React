@@ -1,0 +1,19 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 20%;
+  margin-left: 100px;
+  width: 60%;
+}
+
+.logo-s {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  width: 60%;
+  margin-left: 100px;
+}

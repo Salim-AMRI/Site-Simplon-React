@@ -1,0 +1,52 @@
+.container {
+  background-color: hsla(0, 1%, 77%, 0.769);
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  color: #ce003c;
+  padding: 50px;
+}
+.container h2 {
+  font-size: 3rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section {
+  text-align: center;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0px 20px 0px 20px;
+  transition: all 1s;
+}
+
+.section:hover {
+  background-color: #ce003c;
+  color: white;
+}
+.pargraphe {
+  text-align: center;
+
+  height: 150px;
+}
+
+.titres {
+}
+
+.titre {
+  text-align: center;
+  letter-spacing: 0.18em;
+  padding-top: 30px;
+}
+@media only screen and (max-width: 1000px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+  }
+}
